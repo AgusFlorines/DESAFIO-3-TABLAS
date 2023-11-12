@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 12-11-2023 a las 18:26:31
+-- Tiempo de generación: 12-11-2023 a las 18:50:49
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -66,16 +66,16 @@ CREATE TABLE `compras` (
 --
 
 INSERT INTO `compras` (`id`, `concepto`, `clientes_dni`) VALUES
-(100, 'Compra', '33589746'),
-(125, 'Compra', '17645890'),
-(150, 'Compra', '6589231'),
-(155, 'Compra', '6589231'),
-(200, 'Compra', '36355909'),
-(250, 'Compra', '37374496'),
-(255, 'Compra', '36355909'),
-(300, 'Compra', '35328796'),
-(350, 'Compra', '35678989'),
-(400, 'Compra', '7896541');
+(1, 'Compra', '6589231'),
+(2, 'Compra', '7896541'),
+(3, 'Compra', '37374496'),
+(4, 'Compra', '17645890'),
+(5, 'Compra', '35328796'),
+(6, 'Compra', '35678989'),
+(7, 'Compra', '6589231'),
+(8, 'Compra', '35678989'),
+(9, 'Compra', '39897523'),
+(10, 'Compra', '6589231');
 
 -- --------------------------------------------------------
 
@@ -95,16 +95,16 @@ CREATE TABLE `lineascompra` (
 --
 
 INSERT INTO `lineascompra` (`numero`, `compras_id`, `producto`, `importe`) VALUES
-(1, 100, 'Chocolate blanco', 500),
-(8, 125, 'Chocolate c leche', 350),
-(4, 150, 'Chocolate c almendra', 500),
-(9, 155, 'Chocolate kinder', 900),
-(2, 200, 'Chocolate amargo', 600),
-(5, 250, 'Chocolate nevado', 600),
-(10, 255, 'Chocotorta', 1000),
-(3, 300, 'Chocolate suizo', 700),
-(6, 350, 'Chocolate', 350),
-(7, 400, 'Chocolate con pasas', 700);
+(1, 1, 'Chocolate blanco', 500),
+(2, 2, 'Chocolate amargo', 600),
+(3, 3, 'Chocolate suizo', 700),
+(4, 4, 'Chocolate c almendra', 500),
+(5, 5, 'Chocolate nevado', 600),
+(6, 6, 'Chocolate', 350),
+(7, 7, 'Chocolate con pasas', 700),
+(8, 8, 'Chocolate c leche', 350),
+(9, 9, 'Chocolate kinder', 900),
+(10, 10, 'Chocotorta', 1000);
 
 --
 -- Índices para tablas volcadas
